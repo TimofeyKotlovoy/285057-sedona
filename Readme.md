@@ -1,7 +1,7 @@
 ﻿# Личный проект «Седона»
 
 * Студент: [Тимофей Котловой](https://up.htmlacademy.ru/htmlcss/18/user/285057).
-* Наставник: [Максим Сёмушкин](https://up.htmlacademy.ru/htmlcss/18/user/48647).
+* Наставник: [Максим "Макс" Сёмушкин](https://up.htmlacademy.ru/htmlcss/18/user/48647).
 
 ---
 
