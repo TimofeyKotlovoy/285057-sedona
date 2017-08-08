@@ -1,7 +1,7 @@
 ﻿# Личный проект «Седона»
 
 * Студент: [Тимофей Котловой](https://up.htmlacademy.ru/htmlcss/18/user/285057).
-* Наставник: [Ксения Торкова](https://up.htmlacademy.ru/htmlcss/18/user/23249).
+* Наставник: [Ксения "Ksenya" Торкова](https://up.htmlacademy.ru/htmlcss/18/user/23249).
 
 ---
 
