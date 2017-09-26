@@ -1,35 +1,23 @@
 body {
-	font-size: 15px;
-	line-height: 1;
+	font-size: 14px;
+	line-height: 1.2;
 	color: rgb(0, 0, 0);
 	font-weight: bold;
 	font-family: "PT Sans","Arial", sans-serif;
 }
 
-h1 
 .sedona-main {
 	font-size: 21px;
-	line-height: 1;
-	color: black;
-	font-weight: bold;
-	font-family: "PT Sans","Arial", sans-serif;
+	line-height: 26px;	
 }
 
-h2 
 .white-font {
-	font-size: 21px;
-	line-height: 1;
-	color: white;
-	font-weight: bold;
-	font-family: "PT Sans","Arial", sans-serif;
+	font-size: 21px;	
+	color: white;	
 }
 
-h2 
 .black-font {
-	font-size: 21px;
-	line-height: 1;
-	color: black;
-	font-weight: bold;
-	font-family: "PT Sans","Arial", sans-serif;
+	font-size: 21px;	
+	color: black;	
 }
 
