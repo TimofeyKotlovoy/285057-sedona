@@ -1,9 +1,12 @@
 body {
+	margin: 0;
+	padding:0;
 	font-size: 14px;
 	line-height: 1.2;
 	color: rgb(0, 0, 0);
 	font-weight: bold;
 	font-family: "PT Sans","Arial", sans-serif;
+	text-transform: uppercase;
 }
 
 .sedona-main {
@@ -13,7 +16,8 @@ body {
 
 .white-font {
 	font-size: 21px;	
-	color: white;	
+	color: white;
+	text-align: center;	
 }
 
 .black-font {
@@ -21,3 +25,84 @@ body {
 	color: black;	
 }
 
+a {
+	text-decoration: none;
+}
+
+.main-navigation {
+	font-size: 14px;
+	line-height: 26px;	
+	background-color: white;
+}
+
+.site-navigation {	
+	list-style: none;
+}
+
+.site-navigation a {
+	color: black;
+}
+
+.site-navigation li a:hover,
+.site-navigation li a:focus {
+	background-color: black;
+}
+
+.sedona-main,
+.main-picture p {
+	text-align: center;
+}
+
+/*фон black, чтобы видеть шрифт*/
+.reasons,
+.reasons-2 {
+	background-color: black;		
+	color: white;	
+}
+
+.advices-list {
+	list-style: none;
+}
+
+.reasons-3-item {
+	list-style: none;
+}
+
+.summary {
+	text-align: center;
+}
+
+.summary h3 {
+	font-size: 30px;
+	line-height: 36px;
+}
+
+p input {
+	font: inherit;	  	
+}
+
+.footer-social ul{
+	list-style: none;	
+}
+
+.structure li,
+.sort li,
+.hotels-list li{
+	list-style: none;
+}
+
+/* ----- Сеточные стили ----- */
+
+
+html,
+body {
+  min-width: 1200px;
+  min-height: 1750px;
+}
+
+body {
+  /* Временно для сетки */
+  background-image: url(img/sedona-index-1200.jpg);
+  background-size: 1200px auto;
+  background-repeat: no-repeat;
+}

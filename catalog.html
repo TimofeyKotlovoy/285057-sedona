@@ -3,6 +3,8 @@
     <head>
         <meta charset="utf-8">
         <title>HTML Academy: Седона</title>
+        <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+        <link href="css/normalize.css" rel="stylesheet">
         <link href="css/style.css" rel="stylesheet">
     </head>
     <body>
@@ -23,22 +25,42 @@
             <form class="filter">
                 <fieldset>
                     <legend>Инфраструктура</legend>
-                    <ul>
-                        <li class="filter-option"><input class="filter-input filter-input-checkbox" type="checkbox" name="pool" checked>Бассейн</li>
-                        <li class="filter-option"><input class="filter-input filter-input-checkbox" type="checkbox" name="parking">Парковка</li>
-                        <li class="filter-option"><input class="filter-input filter-input-checkbox" type="checkbox" name="wi-fi">Wi-Fi</li>
+                    <ul class="structure">
+                        <li class="filter-option">
+                            <input class="filter-input filter-input-checkbox" id="pool" type="checkbox" name="pool" checked>
+                            <label for="pool">Бассейн</label>
+                        </li>
+                        <li class="filter-option">
+                            <input class="filter-input filter-input-checkbox" id="parking" type="checkbox" name="parking">
+                            <label for="parking">Парковка</label>
+                        </li>
+                        <li class="filter-option">
+                            <input class="filter-input filter-input-checkbox" id="wi-fi" type="checkbox" name="wi-fi">
+                            <label for="wi-fi">Wi-Fi</label> 
+                        </li>
                     </ul>
                 </fieldset>
                 <fieldset>
-                    <legend>Тип жилья</legend>
-                    <ul>
-                        <li class="filter-option"><input class="filter-input filter-input-checkbox" type="checkbox" name="hotel" checked>Гостиница</li>
-                        <li class="filter-option"><input class="filter-input filter-input-checkbox" type="checkbox" name="motel" checked>Мотель</li>
-                        <li class="filter-option"><input class="filter-input filter-input-checkbox" type="checkbox" name="appartments" checked>Апартаменты</li>
+                    <legend >Тип жилья</legend>
+                    <ul class="structure">
+                        <li class="filter-option">
+                            <input class="filter-input filter-input-checkbox" id="hotel" type="checkbox" name="hotel" checked>
+                            <label for="hotel">Гостиница</label>
+                        </li>
+                        <li class="filter-option">
+                            <input class="filter-input filter-input-checkbox" id="motel" type="checkbox" name="motel" checked>
+                            <label for="motel">Мотель</label>
+                        </li>
+                        <li class="filter-option">
+                            <input class="filter-input filter-input-checkbox" id="apartments" type="checkbox" name="apartments" checked>
+                            <label for="apartments">Апартаменты</label>
+                        </li>
                     </ul>
                 </fieldset>
                 <fieldset>
                     <legend>Стоимость в сутки(р)</legend>
+                    <input type="text" name="text" value="от 0 до 3000">
+                    
 
 
 
@@ -48,10 +70,10 @@
             <section class="result">
                 <h1>Найдено: 3</h1>                
                 <h3>Сортировка:</h3>
-                <ul>
-                    <li class="cost">По цене</li>
-                    <li class="type">По типу</li>
-                    <li class="rating">По рейтингу</li>
+                <ul class="sort">
+                    <li class="cost"><a href="#">По цене</a></li>
+                    <li class="type"><a href="#">По типу</a></li>
+                    <li class="rating"><a href="#">По рейтингу</a></li>
                     <li><a class="button-1" href="#"></a></li>
                     <li><a class="button-2" href="#"></a></li>
                 </ul>
@@ -102,13 +124,13 @@
             <p class="footer-hashteg">
                 <a href="#">#VISITSEDONA</a>
             </p>            
-            <div class="footer-social">
+            <section class="footer-social">
                 <ul>        
                     <li><a class="social-button" href="#">Twitter</a></li>
                     <li><a class="social-button" href="#">Facebook</a></li>
                     <li><a class="social-button" href="#">Youtube</a></li>
                 </ul>
-            </div> 
+            </section> 
             <p>WEBSITE by</p>          
             <a class="link-htmlcss" href="/htmlacademy.ru/intensive/htmlcss">#</a>
         </footer>
